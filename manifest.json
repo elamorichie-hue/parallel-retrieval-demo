@@ -1,7 +1,7 @@
 {
   "name": "parallel-retrieval-demo",
   "display_name": "Parallel Retrieval Demo",
-  "description": "A tiny search engine built from scratch in pure Python that indexes 12 short Web3-security documents using TF-IDF vectors and ranks them with cosine similarity.",
+  "description": "Retrieval Demo — Sparse Search, Honest About Its Limit: a pure-Python TF-IDF search engine over 12 Web3-security documents that demonstrates ranking, evaluation, and the known failure modes of sparse retrieval.",
   "owner": "elamorichie-hue",
   "repository": "parallel-retrieval-demo",
   "language": "Python",
