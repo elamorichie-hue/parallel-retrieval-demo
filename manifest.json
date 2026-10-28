@@ -1,0 +1,43 @@
+{
+  "name": "parallel-retrieval-demo",
+  "display_name": "Parallel Retrieval Demo",
+  "description": "A tiny search engine built from scratch in pure Python that indexes 12 short Web3-security documents using TF-IDF vectors and ranks them with cosine similarity.",
+  "owner": "elamorichie-hue",
+  "repository": "parallel-retrieval-demo",
+  "language": "Python",
+  "version": "0.1.0",
+  "entrypoint": "python3 retrieval_demo.py",
+  "run_instructions": [
+    "python3 retrieval_demo.py"
+  ],
+  "highlights": [
+    "Demonstrates sparse retrieval with TF-IDF and cosine similarity.",
+    "Includes a demo query that correctly ranks the relevant Web3-security document first.",
+    "Evaluates 5 test queries with a 5/5 top-1 accuracy result.",
+    "Explicitly documents a known failure case for sparse retrieval: seed phrase vs recovery words mismatch."
+  ],
+  "topics": [
+    "retrieval",
+    "search-engine",
+    "tf-idf",
+    "web3-security",
+    "demo",
+    "python"
+  ],
+  "files": [
+    {
+      "path": "retrieval_demo.py",
+      "role": "implementation",
+      "description": "The full demo implementation in a single standard-library-only Python file."
+    },
+    {
+      "path": "README.md",
+      "role": "documentation",
+      "description": "Project overview, run instructions, and explanation of the retrieval demo."
+    }
+  ],
+  "notes": [
+    "This project is intentionally a sparse baseline and does not use a neural network or embedding model.",
+    "The project is meant to illustrate the limitations of sparse retrieval and motivate the need for dense embedding-based retrieval approaches."
+  ]
+}
